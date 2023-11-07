@@ -1,0 +1,16 @@
+.right-sidebar{
+  margin-top: 10px;
+}
+.top-right-sidebar img{
+  height: 50vh;
+  width: 85vw;
+  object-fit: contain;
+}
+.bottom-right-sidebar img{
+  height: 25vh;
+  width: 20vw;
+}
+.bottom-right-sidebar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
