@@ -10,25 +10,32 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    font-family: 'Roboto',sans-serif;
+   overflow-x: hidden;
  }
  .header{
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95vw;
+  width: 97vw;
   height: 10vh;
   margin: auto;
+  cursor: pointer;
+  box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.6);
+  z-index: 1;
  }
  .left-header{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
  }
  .left-header img{
   height: 30px;
  }
  .left-header .menu-icon-image{
   height: 20px;
+  position: relative;
+  left: 10px;
  }
  .middle-header{
   display: flex;

@@ -1,4 +1,6 @@
 .right-sidebar{
+  position: relative;
+  left: 180px;
   margin-top: 10px;
 }
 .top-right-sidebar img{
@@ -6,6 +8,7 @@
   width: 85vw;
   object-fit: contain;
 }
+
 .bottom-right-sidebar img{
   height: 25vh;
   width: 20vw;
@@ -13,4 +16,5 @@
 .bottom-right-sidebar{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 86.5vw;
 }
