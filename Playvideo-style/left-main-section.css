@@ -1,0 +1,10 @@
+.main-section{
+  display: flex;
+}
+.left-main-section video{
+  width: 65vw;
+  height: 80vh;
+  position: relative;
+  top: 70px;
+  left: 4px;
+}

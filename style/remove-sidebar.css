@@ -1,0 +1,23 @@
+.small-sidebar span{
+  display: none;
+}
+.small-sidebar .top-left-sidebar{
+  width: 20px;
+}
+.large-sidebar .top-right-sidebar img{
+  position: relative;
+  right: 110px;
+  height: 50vh;
+  width: 93vw;
+  object-fit: contain;
+}
+.large-sidebar .bottom-right-sidebar{
+  position: relative;
+  right: 100px;
+  width: 95vw;
+}
+.large-sidebar .bottom-right-sidebar .thumb{
+  height: 20vh;
+  width: 23vw;
+  object-fit: cover;
+}

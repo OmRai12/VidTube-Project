@@ -1,0 +1,28 @@
+.right-main-section .right-main-section-thumbnail-1 img{
+  width: 70%;
+  height: 90px;
+}
+.right-main-section-thumbnail-1{
+  position: relative;
+  top: 70px;
+  display: flex;
+  gap: 7px;
+  left: 40px;
+  width: 93%;
+}
+.right-main-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-main-section-thumbnail-1{
+  line-height: 1.3;
+  position: relative;
+  left: 20px;
+}
+.right-main-section-thumbnail-1-information h3{
+  font-size: 14px;
+}
+.right-main-section-thumbnail-1-information div{
+  font-size: 12px;
+}
