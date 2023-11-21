@@ -8,3 +8,33 @@
   top: 70px;
   left: 4px;
 }
+.left-main-section a,
+.left-main-section h3{
+  position: relative;
+  top: 80px;
+  left: 10px;
+  text-decoration: none;
+}
+.left-main-section .video-tag{
+  line-height: 1.6;
+}
+.left-main-section .video-tag-views{
+  position: relative;
+  top: 10px;
+}
+.left-main-section .video-tag-views a{
+  color: grey;
+}
+.video-tag-views-impression{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.video-tag-views-impression img{
+  width: 20px;
+}
+.video-tag-imprresion{
+  display: flex;
+  align-items: center;
+}
