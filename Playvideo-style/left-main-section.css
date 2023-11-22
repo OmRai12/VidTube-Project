@@ -1,11 +1,12 @@
 .main-section{
   display: flex;
 }
+.left-main-section{
+  margin-top: 69px;
+}
 .left-main-section video{
   width: 65vw;
-  height: 80vh;
   position: relative;
-  top: 70px;
   left: 4px;
 }
 .left-main-section a,
@@ -22,19 +23,5 @@
   position: relative;
   top: 10px;
 }
-.left-main-section .video-tag-views a{
-  color: grey;
-}
-.video-tag-views-impression{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
-}
-.video-tag-views-impression img{
-  width: 20px;
-}
-.video-tag-imprresion{
-  display: flex;
-  align-items: center;
-}
+
+

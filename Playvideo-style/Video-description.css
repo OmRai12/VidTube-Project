@@ -1,3 +1,109 @@
-.Video-Description{
+.video-information-tag{
+  display: flex;
+  flex-direction: row;
+}
+.video-information{
+  height: 15%;
+  line-height: 1.6;
+  position: relative;
+  left: 10px;
+  margin: auto;
+}
+.video-views-impression{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
   
+}
+.video-information-tag span{
+  color: blue;
+}
+.video-impression{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.video-impression .video-impression-like,
+.video-impression .video-impression-dislike,
+.video-impression .video-impression-share,
+.video-impression .video-impression-save{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.video-views-impression{
+  display: flex;
+  justify-content: space-between;
+}
+.video-impression img{
+  width: 20px;
+}
+.video-information-1{
+  line-height: 2;
+}
+
+.video-title span{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.video-views span{
+  color: grey;
+}
+.channel-information{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.channel-information-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 23%;
+}
+.channel-information-1 .channel-information-1-image img{
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
+.channel-information-1-name .channel-name{
+  font-weight: bold;
+}
+
+.channel-information-subscribe button{
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.channel-Description{
+  border-bottom: 1px solid black;
+  width: 93%;
+  position: relative;
+  left: 65px;
+}
+
+.channel-Description div{
+  color: grey;
+  line-height: 1.6;
+}
+
+.channel-comment{
+  position: relative;
+  left: 65px;
+  top: 20px;
+}
+
+.channel-comment-2{
+  display: flex;
+  position: relative;
+  top: 30px;
+}
+.channel-comment-2 img{
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
 }
