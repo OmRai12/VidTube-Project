@@ -1,5 +1,6 @@
 .main-section{
   display: flex;
+  cursor: pointer;
 }
 .left-main-section{
   margin-top: 69px;

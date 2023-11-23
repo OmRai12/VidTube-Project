@@ -1,0 +1,69 @@
+.channel-comment-section{
+  position: relative;
+  top: 70px;
+  left: 70px;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.video-full-comment-section{
+  position: relative;
+  top: -30px;
+  cursor: pointer;
+}
+.channel-comment-section-1{
+  display: flex;
+}
+.channel-comment-section-1-impression{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.channel-comment-section-1-Description{
+  display: flex;
+  gap: 10px;
+}
+.channel-comment-section-1-image img{
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
+.channel-comment-section-1-all-information{
+  position: relative;
+  left: 10px;
+  line-height: 1.6;
+}
+.channel-comment-section-1-impression img{
+  width: 20px;
+}
+.channel-comment-section-1-like{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.channel-comment-section-1-dislike{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.channel-comment-section-1-name{
+  font-weight: bold;
+}
+
+.channel-comment-section-1-date{
+  color: grey;
+}
+
+.channel-comment-section-1-comment{
+  color: grey;
+}
+
+.channel-comment-section-1-impression div{
+  color: grey;
+}
+
+.channel-comment-section-1-impression .channel-comment-section-1-all{
+  color: blue;
+}
