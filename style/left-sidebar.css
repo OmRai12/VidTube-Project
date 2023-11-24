@@ -1,72 +1,84 @@
 .main-section{
-  display: flex;
-  position: relative;
-  top: 50px;
   cursor: pointer;
 }
 .left-sidebar{
-  position: fixed;
-  margin-top: 20px;
-  width: 20vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 15px;
-  gap: 25px;
+  position: relative;
+  top: 70px;
+  left: 20px;
   
 }
-.top-left-sidebar{
-  display: flex;
-  flex-direction: column;
-  height: 25%;
-  gap: 15px;
+.left-top-sidebar{
   border-bottom: 1px solid black;
-  width: 130px;
+  width: 10vw;
 }
-.top-left-sidebar img{
-  height: 20px;
-  width: 20px;
-}
-.top-left-sidebar div{
+.left-top-sidebar div{
+  width: 10vw;
+  height: 6vh;
   display: flex;
   align-items: center;
-  font-size: 13px;
-  gap: 10px;
-  cursor: pointer;
+ 
 }
-.bottom-left-sidebar{
+
+.left-sidebar-show-more{
+  margin-bottom: 15px;
+}
+.left-top-sidebar img{
+  width: 20px;
+}
+
+.left-sidebar-home,
+.left-sidebar-explore,
+.left-sidebar-subscription,
+.left-sidebar-library,
+.left-sidebar-history,
+.left-sidebar-cast,
+.left-sidebar-playlist,
+.left-sidebar-messages,
+.left-sidebar-show-more{
+  display: flex;
+  gap: 10px;
+}
+
+.home-title,
+.explore-title,
+.subscription-title,
+.library-title,
+.history-title,
+.cast-video-title,
+.playlist-title,
+.messages-title,
+.show-more-title{
+  color: grey;
+  font-size: 16px;
+}
+
+
+.left-bottom-sidebar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.left-bottom-sidebar{
+  position: relative;
+  top: 20px;
   display: flex;
   flex-direction: column;
-  height: 90%;
-  gap: 10px;
+  gap: 20px;
+}
 
-}
-.bottom-left-sidebar .image-name{
-  position: relative;
-  left: -12px;
-}
-.top-left-sidebar-show-more{
-  margin-bottom: 10px;
-}
-.bottom-left-sidebar{
-  position: relative;
-  top: -7px;
-}
-.bottom-left-sidebar div{
+.jack-section,
+.simon-section,
+.tom-section,
+.megan-section,
+.cameron-section{
   display: flex;
   align-items: center;
-  gap: 20px;
-  }
-.bottom-left-sidebar span{
-  font-size: 13px;
-  }
-  .subscribed-button{
-    font-weight: bold;
-    color: grey;
-  }
-.bottom-left-sidebar img{
-  height: 20px;
-  width: 20px;
-  border-radius: 18px;
+  gap: 10px;
 }
 
+.subscribed-title{
+  font-weight: bold;
+  color: grey;
+  font-size: 13px;
+}
