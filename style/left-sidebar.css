@@ -1,11 +1,12 @@
 .main-section{
+  display: flex;
   cursor: pointer;
+  position: relative;
+  top: 70px;
 }
 .left-sidebar{
   position: relative;
-  top: 70px;
   left: 20px;
-  
 }
 .left-top-sidebar{
   border-bottom: 1px solid black;

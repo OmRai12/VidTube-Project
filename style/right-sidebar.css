@@ -1,20 +1,7 @@
-.right-sidebar{
+.right-top-sidebar img{
   position: relative;
-  left: 180px;
-  
-}
-.top-right-sidebar img{
-  height: 50vh;
+  left: 30px;
+  height: 300px;
   width: 85vw;
-  object-fit: contain;
-}
-
-.bottom-right-sidebar img{
-  height: 25vh;
-  width: 20vw;
-}
-.bottom-right-sidebar{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 86.5vw;
+  object-fit:contain;
 }
