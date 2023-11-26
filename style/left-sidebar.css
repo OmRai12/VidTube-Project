@@ -1,5 +1,6 @@
 .main-section{
   display: flex;
+  justify-content: center;
   cursor: pointer;
   position: relative;
   top: 70px;
@@ -82,4 +83,25 @@
   font-weight: bold;
   color: grey;
   font-size: 13px;
+}
+
+.small-sidebar span{
+  display: none;
+}
+
+.small-sidebar .subscribed-title{
+  display: none;
+}
+
+.small-sidebar .left-top-sidebar{
+  border-bottom: 1px solid black;
+  width: 3vw;
+}
+
+.large-sidebar .right-top-sidebar img{
+  width: 95vw;
+}
+
+.large-sidebar .right-bottom-sidebar-thumbnail-1-image img{
+  height: 155px;
 }

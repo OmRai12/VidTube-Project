@@ -1,0 +1,19 @@
+@media (max-width:425px) {
+ .left-sidebar div{
+  display: none;
+}
+
+.small-sidebar .left-sidebar{
+ display: block;
+}
+}
+
+@media (max-width: 1250px) {
+  .right-top-sidebar img {
+    position: relative;
+    left: 30px;
+    /* height: 65vh; You can use percentage or other relative units here */
+   min-width: 99%;     /* Ensure the image doesn't exceed its container */
+    object-fit: contain;
+  }
+}

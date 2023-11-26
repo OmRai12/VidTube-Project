@@ -1,7 +1,7 @@
-.right-top-sidebar img{
+.right-top-sidebar img {
   position: relative;
   left: 30px;
-  height: 300px;
-  width: 85vw;
-  object-fit:contain;
+  /* height: 65vh; You can use percentage or other relative units here */
+  max-width: 97%; /* Ensure the image doesn't exceed its container */
+  object-fit: contain;
 }
