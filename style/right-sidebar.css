@@ -2,6 +2,6 @@
   position: relative;
   left: 30px;
   /* height: 65vh; You can use percentage or other relative units here */
-  max-width: 96.3%;
+  width: 96.3%;
   object-fit: contain;
 }
