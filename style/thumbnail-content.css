@@ -23,7 +23,7 @@
 }
 .right-bottom-sidebar-thumbnail-1-information{
   width: 200px;
-  line-height: 1.6;
+  line-height: 1.3;
 }
 .right-bottom-sidebar-thumbnail-1-information h3{
   font-size: 15px;
@@ -31,6 +31,5 @@
 .right-bottom-sidebar{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
-  width: 99%;
   row-gap: 10px;
 }
