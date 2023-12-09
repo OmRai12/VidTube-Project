@@ -7,6 +7,7 @@
 }
 .left-main-section video{
   width: 65vw;
+  height: 420px;
   position: relative;
   left: 4px;
 }

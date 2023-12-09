@@ -1,5 +1,5 @@
 .right-main-section .right-main-section-thumbnail-1 img{
-  width: 70%;
+  /* width: 70%; */
   height: 90px;
 }
 .right-main-section-thumbnail-1{
@@ -25,4 +25,55 @@
 }
 .right-main-section-thumbnail-1-information div{
   font-size: 12px;
+}
+@media (max-width:899px) {
+  .menu-icon-image{
+    display: none;
+  }
+  .upload-image,
+  .more-icon-image,
+  .notification-image{
+    display: none;
+  }
+  .middle-header img{
+    display: none;
+  }
+  .search-box input{
+    width: 200px;
+  }
+  .right-header img{
+    position: relative;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+  }
+  .main-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-main-section video{
+    width: 100%;
+    position: relative;
+    /* left: 4px; */
+    margin-top: 24px;
+  }
+  .right-main-section .right-main-section-thumbnail-1 img{
+   width: 10vw;
+    
+  }
+  .channel-information-1{
+    margin-top: 50px;
+  }
+  .channel-information-subscribe button{
+    position: relative;
+    top: 20px;
+  }
+  .channel-comment-section-1{
+    width: 90vw;
+  }
+  .right-main-section .right-main-section-thumbnail-1 img{
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+   }
 }
